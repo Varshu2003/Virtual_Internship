@@ -1,0 +1,115 @@
+C:\Users\DELL\Desktop\Virtual_Internship\Management_Frame>gcc Management_frame.c -o Executable
+
+
+------------- 11n -------------
+
+C:\Users\DELL\Desktop\Virtual_Internship\Management_Frame>.\Executable.exe
+1. Enter the mgmt frame type (Beacon / ProbeReq): Beacon
+2. Enter the MAC address to be sent (RA): 00:11:22:33:44:55:66
+3. Enter the 802.11 protocol (11n / 11ac / 11ax): 11n
+
+----- Simulated 802.11  Frame -----
+Frame: 492 bytes captured
+Radiotap Header, Length 56
+IEEE 802.11  frame, Flags: ....C
+IEEE 802.11 Wireless Management
+Fixed parameters (12 bytes)
+Timestamp: 1234567890
+Beacon Interval: 0.102400 [Seconds]
+Capabilities Information: 0x1111
+Tagged parameters:
+Tag: SSID parameter set: "test-network"
+Tag Number: 0, Length: 13, SSID: test-network
+Tag: Supported Rates 6(B), Tag Number: 1, Length: 1
+Receiver Address (RA): 00:11:22:33:44:55:66
+Transmitter Address (TA): aa:aa:aa:aa:aa:aa
+Tag: HT Capabilities (802.11n D1.10)
+Tag Number: 45
+Tag length: 26
+HT Capabilities Info: 0x09ad
+A-MPDU Parameters: 0x17
+Rx Supported MCS Set: MCS Set
+-------------------------------------
+
+
+
+
+-------------- 11ac ---------------
+C:\Users\DELL\Desktop\Virtual_Internship\Management_Frame>.\Executable.exe
+1. Enter the mgmt frame type (Beacon / ProbeReq): Beacon
+2. Enter the MAC address to be sent (RA): 00:00:00:00:00:11
+3. Enter the 802.11 protocol (11n / 11ac / 11ax): 11ac
+
+----- Simulated 802.11 Beacon Frame -----
+Frame: 492 bytes captured
+Radiotap Header, Length 56
+IEEE 802.11 Beacon frame, Flags: ....C
+IEEE 802.11 Wireless Management
+Fixed parameters (12 bytes)
+Timestamp: 1234567890
+Beacon Interval: 0.102400 [Seconds]
+Capabilities Information: 0x1111
+Tagged parameters:
+Tag: SSID parameter set: "test-network"
+Tag Number: 0, Length: 13, SSID: test-network
+Tag: Supported Rates 6(B), Tag Number: 1, Length: 1
+Receiver Address (RA): 00:00:00:00:00:11
+Transmitter Address (TA): aa:aa:aa:aa:aa:aa
+Tag: HT Capabilities (802.11n D1.10)
+Tag Number: 45
+Tag length: 26
+HT Capabilities Info: 0x09ad
+A-MPDU Parameters: 0x17
+Rx Supported MCS Set: MCS Set
+Tag: VHT Capabilities (802.11ac)
+Tag Number: 191
+Tag length: 12
+VHT Capabilities Info: 0xf8b69b1
+VHT Supported MCS Set
+-------------------------------------
+
+
+
+
+---------------- 11ax --------------
+
+C:\Users\DELL\Desktop\Virtual_Internship\Management_Frame>.\Executable.exe
+1. Enter the mgmt frame type (Beacon / ProbeReq): Beacon
+2. Enter the MAC address to be sent (RA): 00:11:22:33:44:55:77
+3. Enter the 802.11 protocol (11n / 11ac / 11ax): 11ax
+
+----- Simulated 802.11  Frame -----
+Frame: 492 bytes captured
+Radiotap Header, Length 56
+IEEE 802.11  frame, Flags: ....C
+IEEE 802.11 Wireless Management
+Fixed parameters (12 bytes)
+Timestamp: 1234567890
+Beacon Interval: 0.102400 [Seconds]
+Capabilities Information: 0x1111
+Tagged parameters:
+Tag: SSID parameter set: "test-network"
+Tag Number: 0, Length: 13, SSID: test-network
+Tag: Supported Rates 6(B), Tag Number: 1, Length: 1
+Receiver Address (RA): 00:11:22:33:44:55:77
+Transmitter Address (TA): aa:aa:aa:aa:aa:aa
+Tag: HT Capabilities (802.11n D1.10)
+Tag Number: 45
+Tag length: 26
+HT Capabilities Info: 0x09ad
+A-MPDU Parameters: 0x17
+Rx Supported MCS Set: MCS Set
+Tag: VHT Capabilities (802.11ac)
+Tag Number: 191
+Tag length: 12
+VHT Capabilities Info: 0xf8b69b1
+VHT Supported MCS Set
+Ext Tag: HE Capabilities (802.11ax)
+Ext Tag Number: 35
+Ext Tag length: 35
+HE MAC Capabilities: 0x100012080005
+HE PHY Capabilities Information
+Supported HE-MCS and NSS Set
+-------------------------------------
+
+C:\Users\DELL\Desktop\Virtual_Internship\Management_Frame>
