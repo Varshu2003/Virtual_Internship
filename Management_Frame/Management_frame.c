@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Need improvements to check for valid MAC address
 void print_mac(const char *label, const char *mac) {
     printf("%s: %s\n", label, mac);
 }
