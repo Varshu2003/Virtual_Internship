@@ -1,0 +1,47 @@
+C:\Users\DELL\Desktop\Virtual_Internship>gcc Frame_Header.c -o Frame_Header
+
+C:\Users\DELL\Desktop\Virtual_Internship>Frame_Header.exe
+Enter frame type (Beacon, Probe_Request, Probe_Response): Beacon
+
+IEEE 802.11 Beacon frame, Flags:.......C
+Type/Subtype: Beacon frame (0x0080)
+Frame Control Field: 0x0080
+.... ..00 = Version: 0
+.... 00.. = Type: Management frame (0)
+.... ..0008 = Subtype: 8
+Flags: 0x00
+.... .0.. = DS status: Not leaving DS or network is operating in AD-HOC mode (To DS: 0 From DS: 0) (0x0)
+.... ..0. = More Fragments: This is the last fragment
+.... ...0 = Retry: Frame is not being retransmitted
+...0 .... = PWR MGT: STA will stay up
+..0. .... = More Data: No data buffered
+.0.. .... = Protected flag: Data is not protected
+0... .... = +HTC/Order flag: Not strictly ordered
+0000 = Duration: 0 microseconds
+Receiver address: ff:ff:ff:ff:ff:ff
+.... .1.. .... .... = LG bit: Locally administered address (this is NOT the factory default)
+.... ..1. .... .... = IG bit: Group address (multicast/broadcast)
+Destination address: ff:ff:ff:ff:ff:ff
+.... .1.. .... .... = LG bit: Locally administered address (this is NOT the factory default)
+.... ..1. .... .... = IG bit: Group address (multicast/broadcast)
+Transmitter address: c4:f7:d5:4b:d3:83
+.... .0.. .... .... = LG bit: Globally unique address (factory default)
+.... ..0. .... .... = IG bit: Individual address (unicast)
+Source address: c4:f7:d5:4b:d3:83
+.... .0.. .... .... = LG bit: Globally unique address (factory default)
+.... ..0. .... .... = IG bit: Individual address (unicast)
+BSS Id: c4:f7:d5:4b:d3:83
+.... .0.. .... .... = LG bit: Globally unique address (factory default)
+.... ..0. .... .... = IG bit: Individual address (unicast)
+0000 .... = Fragment number: 0
+1001 1101 1111 = Sequence number: 2523
+Frame check sequence: 0x5ceef133 [unverified]
+[FCS Status: Unverified]
+[WLAN Flags: ........]
+
+Hexdump of frame header:
+80 00 00 00 ff ff ff ff ff ff ff ff ff ff ff ff
+c4 f7 d5 4b d3 83 c4 f7 d5 4b d3 83 c4 f7 d5 4b
+d3 83 b0 9d 33 f1 ee 5c
+
+C:\Users\DELL\Desktop\Virtual_Internship>
